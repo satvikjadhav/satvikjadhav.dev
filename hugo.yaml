@@ -1,0 +1,113 @@
+---
+baseURL: https://www.satvikjadhav.dev/
+languageCode: en-us
+title: Satvik Jadhav
+paginate: 5
+theme: ["PaperMod"]
+mainsections: ["posts", "papermod"]
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+params:
+  env: production
+  ShowCodeCopyButtons: true
+  ShowReadingTime: true
+  ShowBreadCrumbs: true
+  ShowPostNavLinks: true
+  defaultTheme: light
+  description: Homepage and blog by Satvik Jadhav
+  author: Satvik Jadhav
+
+  # profileMode:
+  #   enabled: true
+  #   description: Homepage and blog by Satvik Jadhav
+  #   subtitle: "Data Engineer // Python // SQL // Data Plumber"
+  #   imageWidth: 120 # custom size
+  #   imageHeight: 120 # custom size
+
+  homeInfoParams:
+    Title: Satvik Jadhav
+    Content: Data Engineer | Python | SQL | Data Plumber
+  TocSide: left # or 'right'
+
+  socialIcons:
+    - name: github
+      url: https://github.com/satvikjadhav
+    - name: linkedin
+      url: https://www.linkedin.com/in/satvikjadhav
+    - name: email
+      url: mailto:contact@satvikjadhav.dev
+    - name: cv
+      url: /resume.html
+  
+  assets:
+    disableHLJS: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+markup:
+  highlight:
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    hl_Lines: ""
+    hl_inline: false
+    lineAnchors: ""
+    lineNoStart: 1
+    lineNos: true
+    lineNumbersInTable: true
+    noClasses: true
+    noHl: false
+    style: github-dark
+    tabWidth: 4
+
+menu:
+  main:
+    - identifier: Categories
+      name: Categories
+      url: categories
+      weight: 5
+    - identifier: Books
+      name: Books
+      url: books/
+      weight: 4
+    - identifier: Posts
+      name: Posts
+      url: posts
+      weight: 2
+    - identifier: Search
+      name: Search
+      url: search
+      weight: 6
+    - identifier: Projects
+      name: Projects
+      url: projects
+      weight: 3
+    - name: About
+      url: about/
+      weight: 1
+
+permalinks:
+  posts: /:section/:year/:month/:slugorfilename
+  
+privacy:
+  vimeo:
+    disabled: false
+    simple: true
+
+  twitter:
+    disabled: false
+    enableDNT: true
+    simple: true
+
+  instagram:
+    disabled: false
+    simple: true
+
+  youtube:
+    disabled: false
+    privacyEnhanced: true
