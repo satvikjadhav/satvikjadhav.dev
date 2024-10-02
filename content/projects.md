@@ -11,10 +11,10 @@ searchHidden: true
 
 ## Programming
 
-| Project                                                      | Description                                                                                                                                                                                                                                                                  |
-|--------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [LearnStack](https://github.com/satvikjadhav/LearnStack) | Documenting my learning journey in computer science, data engineering, and software development. Includes notes, code snippets, and resources across technologies like Spark, Druid, Superset, and more.                                                                     |
-| [Backtest Analyzer](https://github.com/satvikjadhav/BacktestAnalyzer) | Back-testing tool for the CSV output from AlgoTest. It's designed to analyze financial backtest data, calculate various metrics, and provide insights into trading strategies.                                                                                            |
+| Project                                                      | Description                                                                                                                                                                                                                                                               |
+|--------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Talkie](https://github.com/satvikjadhav/Talkie)           | Java-based project that demonstrates core software engineering principles, including object-oriented programming, modular design, and client-server communication. It features user management, chat room functionality, and secure data handling.                        |
+| [Backtest Analyzer](https://github.com/satvikjadhav/BacktestAnalyzer) | Back-testing tool for the CSV output from AlgoTest. It's designed to analyze financial backtest data, calculate various metrics, and provide insights into trading strategies.                                                                                             |
 
 
 
