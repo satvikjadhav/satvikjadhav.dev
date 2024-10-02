@@ -4,6 +4,7 @@ url: books/database_design_for_mere_mortals/the_relational_database
 date: 2017-08-11T21:39:52-06:00
 weight: 1
 draft: false
+searchHidden: true
 ---
 
 ### What is a Database?
