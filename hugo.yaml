@@ -2,7 +2,6 @@
 baseURL: https://www.satvikjadhav.dev/
 languageCode: en-us
 title: Satvik Jadhav
-paginate: 5
 theme: ["PaperMod"]
 mainsections: ["posts", "papermod"]
 enableInlineShortcodes: true
